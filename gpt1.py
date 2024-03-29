@@ -4,7 +4,7 @@ import os
 import sys
 
 # Safe way to set up OpenAI API key
-openai.api_key = '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'
+openai.api_key = ''
 if not openai.api_key:
     print("OpenAI API key not found. Please set the OPENAI_API_KEY environment variable.")
     sys.exit(1)
